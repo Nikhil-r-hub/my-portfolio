@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Professional Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" 
+          integrity="sha512-DTOQO9RWCH3ppGqcWaEA1qU8bdeW5oR5W5d3fT1z4F20S5O7Y+5R+V099XW3o4Y4Y44e1F/1A1A4E1A4A4A1A4A4A==" 
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+          <style>
+        .icon-list i {
+            font-size: 3em; /* Make icons 3 times the base size */
+            margin: 10px;
+            color: #3498db; /* Give them a nice blue color */
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">NIKHIL R</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#contact" class="btn-highlight">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <i class="fas fa-bars"></i>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>Hello, I'm <span class="highlight">Nikhil R</span></h1>
+            <p style="font-size: 25px; font-weight: bold;">An Aspiring DevOps & Cloud Engineer</p>
+            <div class="hero-buttons">
+                <a href="assets/resume.pdf" target="_blank" class="btn primary">Download Resume <i class="fas fa-download"></i></a>
+                <a href="#contact" class="btn secondary">Contact Me</a>
+            </div>
+        </div>
+        <div class="hero-image">
+            <img src="assets/profile.jpg" alt="Profile Photo">
+        </div>
+    </section>
+
+    <section id="about" class="section-container">
+        <h2>About Me</h2>
+        <p class="section-subtitle">Get to know me better</p>
+        <div class="about-content">
+            <p>
+               I am a B.Tech graduate in Computer Science and Engineering with a strong interest in DevOps, Cloud Computing, and Systems Administration. I am currently enhancing my technical skills through a comprehensive DevOps training program that covers the fundamentals of CCNA, Routing, Red Hat Enterprise Linux (RHEL), Ansible, AWS Cloud, and various DevOps tools and practices.My goal is to build a strong foundation in automation, infrastructure management, and cloud deployment to become a skilled DevOps Engineer who bridges the gap between development and operations. I enjoy learning new technologies, solving technical challenges, and continuously improving processes to deliver efficient and reliable IT solutions.
+            </p>
+        </div>
+    </section>
+
+    <section id="education" class="section-container">
+        <h2>Education</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>Bachelor of Technology in Computer Science</h3>
+                <span class="date">2021 - 2025</span>
+                <p>MGM College of Engineering and Technology, Pampakuda, Ernakulam</p>
+                <p>CGPA: 7.1/10</p>
+            </div>
+            <div class="timeline-item">
+                <h3>Higher Secondary Education</h3>
+                <span class="date">2019 - 2021</span>
+                <p>MES Higher Secondary School, Vandanmedu, Idukki</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section-container bg-light">
+        <h2>Technical Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card"><i class="fas fa-network-wired"></i> NETWORKING</div>
+            <div class="skill-card"><i class="fab fa-linux"></i> Linux</div>
+            <div class="skill-card"><i class="fab fa-ansible"></i> Ansible</div>
+            <div class="skill-card"><i class="fab fa-aws"></i> AWS</div>
+            <div class="skill-card"><i class="fab fa-git-alt"></i> Git</div>
+            <div class="skill-card"><i class="fas fa-docker"></i> DevOps</div>
+        </div>
+    </section>
+
+    <section id="experience" class="section-container">
+        <h2>Experience</h2>
+        <div class="timeline">
+            <div class="timeline-item">
+                <h3>DevOps Trainee</h3>
+                <span class="date">Jun 2025 - Present</span>
+                <p style="font-size: 20px; margin-bottom: 10px;">Soften Technologies, Kochi</p>
+                <ul>
+                    <li>Training covers CCNA, Routing, RHEL Linux basics, Ansible automation, and AWS cloud hosting
+(IaaS).</li>
+                    <li>Practiced EC2 provisioning, server setup, and environment configuration.</li>
+                    <li>Developed Ansible playbooks for installing web servers and automating deployments.</li>
+                    <li>Performed routing and troubleshooting using CCNA concepts.</li>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section-container bg-light">
+        <h2>Projects</h2>
+        <div class="project-grid">
+            <div class="project-card">
+                <h3>Manual Deployment of Dynamic Website on AWS (IaaS)</h3>
+                <p> Deployed a dynamic PHP‑based application on EC2, Configured database connectivity, file permissions, and tested end‑to‑end application flow.</p>
+                <div class="tech-stack">
+                    <span>AWS</span><span>EC2</span><span>Apache Web Server</span><span>Git</span>
+                </div>
+                <br>
+                <a href="#" class="btn-sm">View Code</a>
+            </div>
+            <div class="project-card">
+                <h3>Web Server Hosting using AWS </h3>
+                <p>Hosted and configured a web server with EC2, routing rules, and
+storage integration using S3, Performed environment setup and basic automation.</p>
+                <div class="tech-stack">
+                    <span>AWS</span><span>EC2</span><span>S3 Bucket</span><span>tomcat</span>
+                </div>
+                <br>
+                <a href="#" class="btn-sm">View Code</a>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact">
+        <h2>Contact Me</h2>
+        <p>Let's discuss how we can work together.</p>
+        
+        <div class="social-links">
+            <a href="https://wa.me/+91974760007" target="_blank"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="https://www.linkedin.com/in/nikhil-r111/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+            <a href="https://www.instagram.com/nikhil.__r?igsh=aXl6aTFjbzdobjhn" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
+            <a href="nikhilnayanam@gmail.com" target="_blank"><i class="fas fa-envelope"></i> Email</a>
+        </div>
+        
+        <p class="copyright">&copy; 2026 Nikhil R. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
